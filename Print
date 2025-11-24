@@ -1,0 +1,7 @@
+#include <stdio.h>
+void main(){
+    char p[20];
+    printf("Enter the word that you want to print:-");
+    scanf("%s",p);
+    printf("%s",p);
+}
