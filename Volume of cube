@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    float R;
+    printf("----------------- Volume of a cube -----------------\n");
+    printf("Enter the Side of a cube");
+    scanf("%f",&R);
+    printf("volume = %f",R*R*R);
+    
+
+    return 0;
+}
