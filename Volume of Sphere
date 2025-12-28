@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    float R;
+    printf("-----------------Volume of a sphere-----------------\n");
+    printf("Enter the Radius of a shere");
+    scanf("%f",&R);
+    printf("volume = %f",(4/3)*3.14*R*R*R);
+    
+
+    return 0;
+}
