@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    float l,b,h;
+    printf("----------------- Volume of a cuboid -----------------\n");
+    printf("Enter the Length of a cuboid-");
+    scanf("%f",&l);
+    printf("Enter the Breath of a cuboid-");
+    scanf("%f",&b);
+    printf("Enter the Height of a cuboid-");
+    scanf("%f",&h);
+    printf("volume = %f",l*b*h);
+    
+
+    return 0;
+}
